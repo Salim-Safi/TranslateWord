@@ -1,0 +1,19 @@
+{
+  "name": "autodeck",
+  "version": "1.0.0",
+  "description": "The process involves translating a list of words, then generating an Excel file containing these translations. Then, using a dedicated Anki extension, you can import this Excel file into Anki, automatically creating a deck of cards with the original words and their translations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salim",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "deepl-node": "^1.11.1",
+    "dotenv": "^16.4.1",
+    "exceljs": "^4.4.0",
+    "progress": "^2.0.3"
+  }
+}
